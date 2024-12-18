@@ -6,6 +6,9 @@ import db from './models/index.js';
 const app = express();
 const port = process.env.PORT || 3000;
 
+// Model Synchronization : 모델-DB 동기화
+db.sequelize.sync({ force: false });
+
 app.use(express.static('public')); // static
 app.use(express.json()); // json 파싱
 app.use(express.urlencoded({ extended: true })); // form 데이터 파싱
