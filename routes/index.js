@@ -1,6 +1,5 @@
 import express from 'express';
+import indexController from "../controller/index.js"
 const router = express.Router();
-router.route('/').get((req, res) => {
-  res.send('안녕하세요!');
-});
+router.route('/').get(indexController.getHome);
 export default router;
