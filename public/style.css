@@ -1,1 +1,26 @@
 @charset "utf-8";
+
+html {
+  font-size: 20px;
+}
+fieldset {
+  border: 0;
+}
+legend {
+  display: none;
+}
+.container {
+  max-width: 100%;
+}
+.mx-auto {
+  margin: 0 auto;
+}
+.wide {
+  width: 40rem;
+}
+.wide form {
+  max-width: 100%;
+}
+.text-center {
+  text-align: center;
+}
