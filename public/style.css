@@ -9,6 +9,14 @@ fieldset {
 legend {
   display: none;
 }
+table {
+  display: table;
+  width: 100%;
+}
+th,
+td {
+  text-align: center !important;
+}
 .container {
   max-width: 100%;
 }
@@ -23,4 +31,25 @@ legend {
 }
 .text-center {
   text-align: center;
+}
+.d-flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.align-center {
+  align-items: center;
+}
+.my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.my-2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.my-3 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
