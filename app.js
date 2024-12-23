@@ -5,13 +5,13 @@ import usersRouter from './routes/user.js';
 import db from './models/index.js';
 const app = express();
 
-app.set("view engine", "html");
+app.set('view engine', 'html');
 
-nunjucks.configure("views", {
+nunjucks.configure('views', {
   autoescape: true,
   express: app,
-  watch: true
-})
+  watch: true,
+});
 const port = process.env.PORT || 3000;
 
 // Model Synchronization : 모델-DB 동기화
